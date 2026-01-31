@@ -41,3 +41,33 @@ const myFunction = function sayHello() {
 // console.log(typeof id);
 // console.log(typeof bigNumber);
 // console.log(typeof userEmail);
+
+
+
+
+//****************************** */
+
+//stack (primitive/copy) , heap (reference/non-primitive)
+
+let myYouutubename = "Abhishekraut"
+
+let anothername = myYouutubename
+
+anothername = "CodewithAbhishek"
+
+ console.log(myYouutubename);
+console.log(anothername);
+
+let userOne = {
+  email: "abhisehk@gmail.com",
+  age:22 
+}
+
+let userTwo = userOne
+
+userTwo.email = "deepu@gmail.com"
+
+console.log(userOne.email);
+ console.log(userTwo.email);
+
+
