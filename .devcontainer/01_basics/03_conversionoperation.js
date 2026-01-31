@@ -62,7 +62,7 @@ let str3 = str1 + str2
 //console.log(false); //false
 //console.log(+""); //0//
 
-let num1, num2, num3 
+let num1, num2, num3 ;
 
 num1, num2, num3 = 2+3
 
