@@ -35,7 +35,7 @@ const newArr = myArr.join()
 // console.log(newArr);
 // console.log(typeof newArr);
 
-// console.log(myArr);
+console.log(myArr);
 
 
 // slice ,splice
