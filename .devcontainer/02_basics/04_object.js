@@ -59,3 +59,30 @@ user[1].email
 
 // console.log(Object.hasOwn('isLogged'));
 // console.log(Object.hasOwn(tinderUser, 'isMatch'));
+
+
+const course ={
+    coursename: "Js in hindi",
+    price:"999",
+    courseInstructor: "abhishek"
+}
+
+// course.courseInstructor
+
+const{courseInstructor: instructor} = course
+
+// console.log(courseInstructor );
+
+console.log(instructor);
+
+// {
+//     "name" ="abhishek",
+//     "coursename":"abhis",
+//     "price":"free"
+// }
+
+[
+{},
+{},
+{}
+]
