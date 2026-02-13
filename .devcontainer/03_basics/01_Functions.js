@@ -1,30 +1,30 @@
 
-function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
-}
+// function sayMyName(){
+//     console.log("H");
+//     console.log("I");
+//     console.log("T");
+//     console.log("E");
+//     console.log("S");
+//     console.log("H");
+// }
 
-sayMyName()
+// sayMyName()
 
-function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){
 
-    console.log(number1 + number2);
-}
+//     console.log(number1 + number2);
+// }
 
-function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){
 
-    let result = number1 + number2
-    return result
-    return number1 + number2
-}
+//     let result = number1 + number2
+//     return result
+//     return number1 + number2
+// }
 
-const result = addTwoNumbers(3, 5)
+// const result = addTwoNumbers(3, 5)
 
-console.log("Result: ", result);
+// console.log("Result: ", result);
 
 
 function loginUserMessage(username = "sam"){
@@ -35,8 +35,8 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("hitesh"))
-console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("Abhishek Raut"))
+// console.log(loginUserMessage("Abhishek Raut"))
 
 
 function calculateCartPrice(val1, val2, ...num1){
@@ -46,7 +46,7 @@ function calculateCartPrice(val1, val2, ...num1){
 console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "Abhiahek",
     prices: 199
 }
 
@@ -56,7 +56,7 @@ function handleObject(anyobject){
 
 handleObject(user)
 handleObject({
-    username: "sam",
+    username: "Abhi",
     price: 399
 })
 
